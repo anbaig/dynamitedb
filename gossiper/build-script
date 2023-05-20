@@ -1,0 +1,2 @@
+docker build -t dynamitedb/gossiper .
+docker run --publish 8070:8070 dynamitedb/gossiper

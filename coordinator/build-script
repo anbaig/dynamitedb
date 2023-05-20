@@ -1,0 +1,2 @@
+docker build -t dynamitedb/coordinator .
+docker run --publish 8080:8080 dynamitedb/coordinator
